@@ -1,0 +1,388 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #DAE5D7;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2px;
+}
+
+#navigation {
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+#maincontent {
+  position: fixed;
+  top: 27%;
+  left: 19%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#maincontentapp {
+  position: fixed;
+  top: 28%;
+  left: 19%;
+  right: 18.2%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  padding: 10px;
+  height: 200px;
+  width: 1200px;
+
+}
+
+#button {
+  background-color: #04AA6D;
+  /* Green */
+  left: 50%;
+  top: 310px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 23px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 235px;
+}
+
+#button:hover {
+  background-color: #9EE584;
+  cursor: pointer;
+}
+
+.button-container {
+  color: white;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* */
+.container {
+  max-width: 400px;
+  margin: 40px 0px;
+  padding: 20px;
+  background-color: #D8EAD2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-color: #AFD2A0;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#Appmaincontent1 {
+  position: fixed;
+  top: 335px;
+  margin-left: 480px;
+  margin-top: 70px;
+  max-width: 700px;
+}
+
+#Appmaincontent2 {
+  position: fixed;
+  top: 430px;
+  margin-left: 480px;
+  margin-top: 70px;
+  max-width: 700px;
+}
+
+#webmaincontent {
+  position: fixed;
+  left: 170px;
+  top: 320px;
+  transform: translateX(50%);
+  max-width: 350px;
+  padding: 10px;
+}
+#webdevcourse1{
+  height: 300px;
+  width: 350px;
+  position: fixed;
+  left: 365px;
+  top: 580px;
+}
+  
+
+#webmaincontent2 {
+  position: fixed;
+  left: 50%;
+  top: 320px;
+  transform: translateX(-50%);
+  max-width: 350px;
+  padding: 10px;
+}
+#webdevcourse2{
+height: 300px;
+width: 350px;
+position: fixed;
+left: 780px;
+top: 580px;
+}
+  
+#webmaincontent3 {
+  position: fixed;
+  right: 540px;
+  top: 320px;
+  transform: translateX(50%);
+  max-width: 350px;
+  padding: 10px;
+}
+#webdevcourse3{
+height: 300px;
+width: 350px;
+position: fixed;
+left: 1205px;
+top: 580px;
+}
+
+#bottomwebdev1:hover {
+  background-color: #B35E04;
+  cursor: pointer;
+}
+#bottomwebdev2:hover {
+  background-color: #B35E04;
+  cursor: pointer;
+}
+#bottomwebdev3:hover {
+  background-color: #B35E04;
+  cursor: pointer;
+}
+
+#indexmaincontent1{
+max-width: 650px;
+}
+
+#indexmaincontent2{
+max-width: 650px;
+}
+
+#Officeworkerimg{
+height: 400px;
+width: 450px;
+position: fixed;
+left: 1100px;
+top: 330px;
+}
+
+#traineesmaincontent1{
+max-width: 1180px;
+}
+
+#traineewebdev1{
+  height: 300px;
+  width: 390px;
+  position: fixed;
+  left: 350px;
+  top: 520px;
+  padding: 10px;
+}
+#traineewebdev2{
+  height: 300px;
+  width: 390px;
+  position: fixed;
+  left: 1175px;
+  top: 520px;
+  padding: 10px;
+}
+#traineewebdev3{
+  height: 300px;
+  width: 390px;
+  position: fixed;
+  left: 770px;
+  top: 520px;
+  padding: 10px;
+}
+
+#specandqual{
+  height: 350px;
+  width: 550px;
+  position: fixed;
+  left: 365px;
+  top: 330px;
+}
+
+#specandqualmain{
+  position: fixed;
+  left: 65%;
+  top: 300px;
+  transform: translateX(-50%);
+  max-width: 600px;
+  padding: 10px;
+}
+
+#specqualvideo{
+  height: 350px;
+  width: 550px;
+  position: fixed;
+  left: 1000px;
+  top: 570px;
+}
+
+#videoexplain{
+  position: fixed;
+  left: 34.5%;
+  top: 680px;
+  transform: translateX(-50%);
+  max-width: 600px;
+  padding: 10px;
+}
+
+
+#webcourseimages {
+  background-color: #E69137;
+  /* Green */
+  left: 50%;
+  top: 510px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 23px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 235px;
+}
+
+#webcourseimages:hover {
+  background-color: #E69137;
+}
+
+.webcourseimages {
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+/* */
+.container {
+  max-width: 400px;
+  position: fixed;
+  left:360px;
+  top: 230px;
+  margin: 80px 0px; /* Further increased margin value to spread buttons apart more */
+  padding: 20px;
+  background-color: #62c07e;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-color: #AFD2A0;
+}
+
+#bottomwebdev1{
+  position: absolute;
+  top: 895px;
+  left: 365px;
+  background-color: #E69137;
+  padding: 10px;
+  font-size: 23px;
+  border-radius: 7px;
+  color: white;
+  width: 350px;
+}
+#bottomwebdev2{
+  position: absolute;
+  top: 895px;
+  left: 780px;
+  background-color: #E69137;
+  padding: 10px;
+  font-size: 23px;
+  border-radius: 7px;
+  color: white;
+  width: 350px;
+}
+#bottomwebdev3{
+  position: absolute;
+  top: 895px;
+  left: 1205px;
+  background-color: #E69137;
+  padding: 10px;
+  font-size: 23px;
+  border-radius: 7px;
+  color: white;
+  width: 350px;
+}
+
+#welcometext{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#traineewebdev1text {
+  position: fixed;
+  left: 170px;
+  top: 830px;
+  transform: translateX(50%);
+  max-width: 380px;
+}
+#traineewebdev2text {
+  position: fixed;
+  left: 50%;
+  top: 830px;
+  transform: translateX(-50%);
+  max-width: 380px;
+}
+#traineewebdev3text {
+  position: fixed;
+  right: 540px;
+  top: 830px;
+  transform: translateX(50%);
+  max-width: 380px;
+}
+
+#map{
+  position: fixed;
+  top: 310px;
+  left: 45%;
+}
+
+#contactinfo{
+  position: fixed;
+  top: 270px;
+  margin: 490px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<link href="stylesheet.css" rel="stylesheet" type="text/css"> 
+  
+ 
+<!-- The page div will handle the background colour of the main content, this will be consistent across all pages -->
+<div id="page">
+
+<img src="content/banner.jpg" id="banner" alt="ICT Solutions banner">
+
+<!-- The navigation div will contain the website navigation bar, this will be consistent across pages -->
+<div id="navigation">
+
+<div class="button-container">
+<a href="index.html"><button id="button" type="button">Home</button></a>
+<a href="trainees.html"><button id="button" type="button">Our Trainees</button></a>
+<a href="specqual.html"><button id="button" type="button">Spec & Qual</button></a>
+<a href="application.html"><button id="button" type="button">Application Form</button></a>
+<a href="webcourse.html"><button id="button" type="button">Web dev courses</button></a>
+
+</div>
+
+
+<!-- This closes the 'navigation' div tag -->
+</div>
+
+<!-- The maincontent div will contain the content for each page, this content will change across pages -->
+<div id="maincontent">
+
+<p><h1>Who are we?</h1></p>
+  
+<p id="indexmaincontent1">ICT Solutions is home to a dynamic and passionate web development team dedicated to shaping the digital landscape with innovation and creativity. Our team prides itself on a commitment to excellence, leveraging cutting-edge technologies and best practices to deliver outstanding web solutions. By fostering a collaborative and inclusive work environment, we inspire each team member to unleash their full potential, creating a diverse and vibrant community. With a relentless pursuit of excellence and a spirit of continuous learning, we are poised to redefine the boundaries of web development and deliver impactful results that exceed expectations.</p>
+
+<p id="indexmaincontent2">At ICT Solutions, our web development team embraces a culture of relentless innovation and unwavering commitment to excellence. We are a group of forward-thinking professionals united by our passion for crafting exceptional web experiences. Our team thrives on the challenges that come with staying at the forefront of technological advancements, constantly pushing boundaries and exploring new horizons. Here, we embrace diversity as a cornerstone of our success, fostering an environment where every individual's unique perspective is celebrated and valued. With a deep dedication to collaboration, we leverage our collective expertise to create compelling digital solutions that leave a lasting impression.</p>
+
+<img src="content/OfficeWorkers.jpeg" id="Officeworkerimg">
+
+<!-- This closes the 'maincontent' div tag --> </div>
+</div>
+
+<!-- This closes the 'page' div tag -->
+</div>
+
+  <div id="welcometext">
+    <script>
+    var Digital=new Date()
+    var hours=Digital.getHours()
+    if (hours>=0&&hours<=12)
+    document.write('<b>Good Morning, welcome!</b>')
+    else if (hours>12&&hours<=17)
+    document.write('<b>Good Afternoon, welcome!</b>')
+    else document.write('<b>Good Evening, welcome!</b>')
+    </script>
+
+
+    <body onload="startTime()">
+
+
+    <div id="txt"></div>
+
+    <script>
+    function startTime() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+      setTimeout(startTime, 1000);
+    }
+
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+    </script>
+
+
+    
+  
+</body>
+
+  
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<link href="stylesheet.css" rel="stylesheet" type="text/css"> 
+
+
+
+<body>
+
+<!-- The page div will handle the background colour of the main content, this will be consistent across all pages -->
+<div id="page">
+
+<img src="content/banner.jpg" id="banner" alt="ICT Solutions banner">
+
+<!-- The navigation div will contain the website navigation bar, this will be consistent across pages -->
+<div id="navigation">
+
+<div class="button-container">
+  <a href="index.html"><button id="button" type="button">Home</button></a>
+  <a href="trainees.html"><button id="button" type="button">Our Trainees</button></a>
+  <a href="specqual.html"><button id="button" type="button">Spec & Qual</button></a>
+  <a href="application.html"><button id="button" type="button">Application Form</button></a>
+  <a href="webcourse.html"><button id="button" type="button">Web dev courses</button></a>
+
+</div>
+
+
+<!-- This closes the 'navigation' div tag -->
+</div>
+
+<!-- The maincontent div will contain the content for each page, this content will change across pages -->
+<div id="maincontentapp">
+
+
+<div class="container">
+    <h2><center style="font-size: 30px;">Application Form</center></h2>
+    <form action="mailto:{email}" method="post" enctype="text/plain">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <label for="dob">Date of Birth</label>
+        <input type="text" id="dob" name="dob" required>
+
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
+
+<div id=map>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div id="contactinfo">
+<p>Email: contactus@ictsolutions.co.uk<br> <br>
+Phone number: +44-9860-266-942</p>
+</div>
+
+  
+<!-- This closes the 'maincontent' div tag --> </div>
+</div>
+
+<!-- This closes the 'page' div tag -->
+</div>
+
+</body>
+
+</html>
