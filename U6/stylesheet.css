@@ -1,3 +1,5 @@
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #DAE5D7;
@@ -140,7 +142,7 @@ input[type="submit"]:hover {
   width: 350px;
   position: fixed;
   left: 365px;
-  top: 580px;
+  top: 560px;
 }
   
 
@@ -157,7 +159,7 @@ height: 300px;
 width: 350px;
 position: fixed;
 left: 780px;
-top: 580px;
+top: 560px;
 }
   
 #webmaincontent3 {
@@ -173,7 +175,7 @@ height: 300px;
 width: 350px;
 position: fixed;
 left: 1205px;
-top: 580px;
+top: 560px;
 }
 
 #bottomwebdev1:hover {
@@ -190,11 +192,10 @@ top: 580px;
 }
 
 #indexmaincontent1{
+position: fixed;
 max-width: 650px;
-}
-
-#indexmaincontent2{
-max-width: 650px;
+top: 320px;
+z-index:1;
 }
 
 #Officeworkerimg{
@@ -203,10 +204,18 @@ width: 450px;
 position: fixed;
 left: 1100px;
 top: 330px;
+z-index: 0;
 }
 
 #traineesmaincontent1{
+  position: fixed;
+  top: 270px;
 max-width: 1180px;
+}
+
+#traineenames{
+  position: fixed;
+  top: 410px;
 }
 
 #traineewebdev1{
@@ -214,7 +223,7 @@ max-width: 1180px;
   width: 390px;
   position: fixed;
   left: 350px;
-  top: 520px;
+  top: 450px;
   padding: 10px;
 }
 #traineewebdev2{
@@ -222,7 +231,7 @@ max-width: 1180px;
   width: 390px;
   position: fixed;
   left: 1175px;
-  top: 520px;
+  top: 450px;
   padding: 10px;
 }
 #traineewebdev3{
@@ -230,7 +239,7 @@ max-width: 1180px;
   width: 390px;
   position: fixed;
   left: 770px;
-  top: 520px;
+  top: 450px;
   padding: 10px;
 }
 
@@ -300,8 +309,8 @@ max-width: 1180px;
   max-width: 400px;
   position: fixed;
   left:360px;
-  top: 230px;
-  margin: 80px 0px; /* Further increased margin value to spread buttons apart more */
+  top: 310px;
+  margin: 0px 0px; /* Further increased margin value to spread buttons apart more */
   padding: 20px;
   background-color: #62c07e;
   border-radius: 5px;
@@ -312,7 +321,7 @@ max-width: 1180px;
 
 #bottomwebdev1{
   position: absolute;
-  top: 895px;
+  top: 875px;
   left: 365px;
   background-color: #E69137;
   padding: 10px;
@@ -323,7 +332,7 @@ max-width: 1180px;
 }
 #bottomwebdev2{
   position: absolute;
-  top: 895px;
+  top: 875px;
   left: 780px;
   background-color: #E69137;
   padding: 10px;
@@ -334,7 +343,7 @@ max-width: 1180px;
 }
 #bottomwebdev3{
   position: absolute;
-  top: 895px;
+  top: 875px;
   left: 1205px;
   background-color: #E69137;
   padding: 10px;
@@ -353,21 +362,21 @@ max-width: 1180px;
 #traineewebdev1text {
   position: fixed;
   left: 170px;
-  top: 830px;
+  top: 750px;
   transform: translateX(50%);
   max-width: 380px;
 }
 #traineewebdev2text {
   position: fixed;
-  left: 50%;
-  top: 830px;
+  left: 970px;
+  top: 750px;
   transform: translateX(-50%);
   max-width: 380px;
 }
 #traineewebdev3text {
   position: fixed;
   right: 540px;
-  top: 830px;
+  top: 750px;
   transform: translateX(50%);
   max-width: 380px;
 }
@@ -378,10 +387,10 @@ max-width: 1180px;
   left: 45%;
 }
 
-#contactinfo{
+#contactinformation{
   position: fixed;
-  top: 270px;
-  margin: 490px;
+  top: 730px;
+  left: 360px;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
